@@ -15,3 +15,23 @@
 
 
 5. Briefly describe scope in JavaScript.
+
+
+
+
+1. A function literal is an expression used to define an unnamed function. For example: var doSomething = function() {
+                          								   Some code…
+                         								 };
+You can also give it arguments in the parentheses, which can later be given values in another function where it the function literal can be reused.
+
+2. The constructor creates an Object. This object can then be given multiple properties and values. 
+After this Object is created, you can use it as a blueprint for creating new objects with a starting point in the original object. 
+Then  you can give this new object its own values based on the properties given in the constructor, and also you can add additional properties and values 
+to the new objects.
+
+3. When the code is executed and it reaches a return statement in the code, the return statement value is returned and the function execution is stopped. 
+
+4. The string: ‘inside my function’ will be returned because the program execution never gets to the next console.log.
+
+5. In JavaScript there is global scope and local scope. Scope defines which variables variables you can access. 
+If your variable is defined outside of a function it is a global variable. If you only can access a variable in specific parts of the code, it is a local variable.
